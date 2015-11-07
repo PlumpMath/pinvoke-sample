@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7EB476A1BEE5F3500AD09E3 /* pinvoke_native.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EB47691BEE5F3500AD09E3 /* pinvoke_native.h */; };
+		A7EB476C1BEE5F3500AD09E3 /* pinvoke_native.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EB476B1BEE5F3500AD09E3 /* pinvoke_native.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7EB47661BEE5F3500AD09E3 /* libpinvoke-native.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libpinvoke-native.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EB47691BEE5F3500AD09E3 /* pinvoke_native.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pinvoke_native.h; sourceTree = "<group>"; };
+		A7EB476B1BEE5F3500AD09E3 /* pinvoke_native.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pinvoke_native.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7EB47631BEE5F3500AD09E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7EB475D1BEE5F3500AD09E3 = {
+			isa = PBXGroup;
+			children = (
+				A7EB47681BEE5F3500AD09E3 /* pinvoke-native */,
+				A7EB47671BEE5F3500AD09E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7EB47671BEE5F3500AD09E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7EB47661BEE5F3500AD09E3 /* libpinvoke-native.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7EB47681BEE5F3500AD09E3 /* pinvoke-native */ = {
+			isa = PBXGroup;
+			children = (
+				A7EB47691BEE5F3500AD09E3 /* pinvoke_native.h */,
+				A7EB476B1BEE5F3500AD09E3 /* pinvoke_native.m */,
+			);
+			path = "pinvoke-native";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7EB47641BEE5F3500AD09E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EB476A1BEE5F3500AD09E3 /* pinvoke_native.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7EB47651BEE5F3500AD09E3 /* pinvoke-native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EB476F1BEE5F3500AD09E3 /* Build configuration list for PBXNativeTarget "pinvoke-native" */;
+			buildPhases = (
+				A7EB47621BEE5F3500AD09E3 /* Sources */,
+				A7EB47631BEE5F3500AD09E3 /* Frameworks */,
+				A7EB47641BEE5F3500AD09E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pinvoke-native";
+			productName = "pinvoke-native";
+			productReference = A7EB47661BEE5F3500AD09E3 /* libpinvoke-native.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7EB475E1BEE5F3500AD09E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ivan Burlakov";
+				TargetAttributes = {
+					A7EB47651BEE5F3500AD09E3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A7EB47611BEE5F3500AD09E3 /* Build configuration list for PBXProject "pinvoke-native" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7EB475D1BEE5F3500AD09E3;
+			productRefGroup = A7EB47671BEE5F3500AD09E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7EB47651BEE5F3500AD09E3 /* pinvoke-native */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7EB47621BEE5F3500AD09E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EB476C1BEE5F3500AD09E3 /* pinvoke_native.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7EB476D1BEE5F3500AD09E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7EB476E1BEE5F3500AD09E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7EB47701BEE5F3500AD09E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7EB47711BEE5F3500AD09E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7EB47611BEE5F3500AD09E3 /* Build configuration list for PBXProject "pinvoke-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EB476D1BEE5F3500AD09E3 /* Debug */,
+				A7EB476E1BEE5F3500AD09E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EB476F1BEE5F3500AD09E3 /* Build configuration list for PBXNativeTarget "pinvoke-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EB47701BEE5F3500AD09E3 /* Debug */,
+				A7EB47711BEE5F3500AD09E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7EB475E1BEE5F3500AD09E3 /* Project object */;
+}

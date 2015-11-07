@@ -1,0 +1,6 @@
+bin/
+obj/
+build/
+output/
+*.userprefs
+*.xcuserdatad/
